@@ -1,0 +1,10 @@
+[
+	{
+		"code": "F12",
+		"name": "F12",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	}
+]
