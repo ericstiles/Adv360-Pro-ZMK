@@ -58,3 +58,9 @@ label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
+macro_ets: macro_ets{
+compatible = "zmk,behavior-macro";
+label = "macro_ets";
+#binding-cells = <0>;
+bindings = <&kp LS(E)>, <&kp LS(T)>, <&kp LS(S);
+};
