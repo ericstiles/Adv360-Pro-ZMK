@@ -75,7 +75,7 @@
  &none           &kp C_BRI_DN                &kp C_BRI_UP          &kp C_MUTE                  &kp C_VOL_DN          &kp C_VOL_UP  &bootloader                                                                     &bootloader   &none       &none       &none   &none   &none   &none
  &none           &kp PRINTSCREEN             &kp PSCRN             &none                       &none                 &none         &none         &none      &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none       &none       &none   &none   &none   &none
  &none           &macro_quotes               &macro_dquotes        &macro_brackets             &macro_ver            &none                       &none                       &none                                       &none       &none       &none   &none   &none   &none
- &macro_layer_3  &LG(LC(DV_Q)) &none  &none  &none                           &kp BSPC   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC   &none   &none   &none
+ &macro_layer_3  &kp LG(LC(DV_Q)) &none  &none  &none                           &kp BSPC   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC   &none   &none   &none
             >;
         };
 
