@@ -1,0 +1,1 @@
+#define KC_CAPW LGUI(LSFT(KC_3))        // Capture whole screen
