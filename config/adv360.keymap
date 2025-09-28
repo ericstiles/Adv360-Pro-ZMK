@@ -62,7 +62,7 @@
 
 default_layer {
   bindings = <
-       &kp EQUAL    &kp N1     &kp N2     &kp N3         &kp N4    &kp N5       &tog 1                                                 &mo 2       &kp N6      &kp N7          &kp N8        &kp N9    &kp N0      &td_minus
+       &kp EQUAL    &kp N1     &kp N2     &kp N3         &kp N4    &kp N5       &mo 2                                                  &mo 2       &kp N6      &kp N7          &kp N8        &kp N9    &kp N0      &td_minus
        &kp GRAVE     &kp Q      &kp W      &kp E          &kp R     &kp T       &mo 5                                                  &mo 3       &kp Y       &kp U           &kp I         &kp O     &kp P       &td_bslh 
          &kp TAB     &kp A      &kp S      &kp D          &kp F     &kp G       &mo 6  &kp LCTRL  &kp PG_UP     &kp PG_DN  &kp RCTRL   &mo 4       &kp H       &kp J           &kp K         &kp L     &kp SEMI    &td_quote
       &skq LSHFT     &kp Z      &kp X      &kp C          &kp V     &kp B                          &kp LALT     &kp RALT                           &kp N       &kp M           &kp COMMA     &kp DOT   &kp FSLH    &skq RSHFT
@@ -86,10 +86,10 @@ layer_keypad {
 /* layer 2 -> function - combo: ESC, LARROW */
 layer_fn {
   bindings = <
-          &none    &kp F1  &kp F2  &kp F3  &kp F4  &kp F5     &tog 1                                                &mo 2    &kp F6  &kp F7  &kp F8   &kp 9     &kp F10   &none
-          &none   &kp F11  &kp 12   &none   &none    &none     &mo 5                                                &mo 3    &none   &none   &kp F7   &kp F8    &kp F9    &none
-          &none     &none   &none   &none   &none    &none     &mo 6  &none  &none                  &none  &none    &mo 4    &none   &none   &kp F4   &kp F5    &kp F6    &none
-          &none     &none   &none   &none   &none    &none                    &none                  &none                    &none   &none   &kp F1   &kp F2    &kp F3    &none
+          &none    &kp F1  &kp F2  &kp F3  &kp F4  &kp F5     &tog 1                                                &mo 2    &kp F6  &kp F7  &kp F8   &kp F9    &kp F10   &none
+          &none   &kp F11  &kp 12   &none   &none    &none     &mo 5                                                &mo 3    &none   &kp F7  &kp F8   &kp F9    &kp F10   &none
+          &none     &none   &none   &none   &none    &none     &mo 6  &none  &none                  &none  &none    &mo 4    &none   &kp F4  &kp F5   &kp F6    &kp F11   &none
+          &none     &none   &none   &none   &none    &none                   &none                  &none                    &none   &kp F1  &kp F2   &kp F3    &kp F12   &none
  &macro_layer_2     &none   &none   &none   &none           &kp BSPC  &none  &none                  &none  &kp RET  &kp F10          &none   &none    &none     &none     &none
   >;
 };
